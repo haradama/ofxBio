@@ -2,7 +2,17 @@
 //  ofxBio.cpp
 //  ofxBio
 //
-//  Created by 原田誠史 on 2020/05/10.
+//  Created by Masafumi Harada on 2020/05/10.
 //
 
 #include "ofxBio.hpp"
+
+
+Seq::Seq(string data) {
+    this->data = data;
+    this->length = data.size();
+};
+
+int Seq::getLength() {
+    return length;
+};

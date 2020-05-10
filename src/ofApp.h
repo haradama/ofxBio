@@ -1,6 +1,7 @@
 #pragma once
 
 #include "ofMain.h"
+#include "ofxBio.hpp"
 
 class ofApp : public ofBaseApp{
 
